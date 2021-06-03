@@ -1,0 +1,38 @@
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.form-control {
+  margin: 0.5rem 0;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.form-control input {
+  width: 500px;
+  height: 40px;
+}
+.form-control .checkbox {
+  height: 30px;
+  width: 30px;
+}
+.form-control-last {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox {
+  margin-left: 4rem;
+}
+button {
+  height: 2rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 1rem 0;
+}
