@@ -4,7 +4,7 @@
 1. json-server
 
 ## Linking the json-server
-### first we have to build 
+### first we have to run the build 
 ```bash
 serve -s build -p 8000
 ```
